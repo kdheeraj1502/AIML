@@ -75,7 +75,7 @@ def mini_batch_gradient_descent(x, y, theta, learning_rate, iterations, batch_si
 theta = np.zeros(x_train.shape[1])
 
 # Set hyperparameters
-learning_rate = 0.01
+learning_rate = 0.0001
 iterations = 1000
 batch_size = 16
 
